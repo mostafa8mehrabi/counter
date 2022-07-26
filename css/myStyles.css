@@ -1,0 +1,65 @@
+* {
+  direction: rtl;
+  font-family: "Vazir" !important;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  height: 100vh;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  align-items: center;
+  background-color: #f7f7f7;
+  margin-top: 5%;
+  width: 80%;
+
+  border-radius: 200px;
+}
+.header {
+  margin: 10px auto;
+}
+#userText {
+  padding: 7px;
+  width: 300px;
+  outline-color: red;
+  border: 1px solid rgba(0, 0, 0, 0.4);
+  border-radius: 5px;
+}
+#startButton {
+  border: none;
+  padding: 7px 10px;
+  cursor: pointer;
+  background: #e74c3c;
+  color: white;
+  border-radius: 8px;
+}
+#errorMessage {
+  margin: 0px;
+  color: #e74c3c;
+  font-size: 0.9em;
+  display: none;
+}
+#errorMessage.active {
+  display: block;
+}
+.c100 {
+  display: none;
+  margin-top: 50%;
+}
+.footer {
+  margin: 10px auto;
+  font-size: 1em;
+}
+#loading {
+  color: rgb(255, 30, 0);
+  display: none;
+}
+#endTime {
+  color: green;
+  display: none;
+}

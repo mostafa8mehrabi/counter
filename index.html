@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/CircularProgressBar.css" />
+    <link rel="stylesheet" href="css/myStyles.css" />
+    <link
+    href="https://cdn.rawgit.com/rastikerdar/vazir-font/v20.1.1/dist/font-face.css"
+    rel="stylesheet"
+    type="text/css"
+  />
+    <title>شمارنده تلاش 1</title>
+  </head>
+  <body>
+    <!--wrapper-->
+    <div class="wrapper">
+      <!--container-->
+      <div class="container">
+        <div class="header">
+          <input
+            type="text"
+            name=""
+            id="userText"
+            placeholder="زمان خود را به ثانیه وارد کنید"
+          />
+          <button id="startButton">شروع</button>
+        </div>
+        <span id="errorMessage"></span>
+        <div class="main">
+          <div class="c100">
+            <span id="timerNumber"></span>
+            <div class="bar"></div>
+            <div class="fill"></div>
+          </div>
+        </div>
+        <div class="footer">
+          <span id="loading">در حال اجرا ...</span>
+          <span id="endTime">زمان به پایان رسید</س>
+        </div>
+      </div>
+    </div>
+    <script src="script/script.js"></script>
+  </body>
+</html>
